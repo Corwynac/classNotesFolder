@@ -2,6 +2,13 @@ import {Builder, Capabilities, By, until} from 'selenium-webdriver'
 const chromedriver = require('chromedriver')
 const driver = new Builder().withCapabilities(Capabilities.chrome()).build()
 
+// this is to make a comment, also ctrl+/ will do it in the middle of a sent
+/* is to make multi line comments 
+like so many
+*/
+// just 1 comment line
+
+/*  */
 test("can it add a new employee", async () => {
     await driver.get("https://devmountain-qa.github.io/employee-manager/1.2_Version/index.html")
     await driver.wait(until.elementLocated(By.name("employee1")))
