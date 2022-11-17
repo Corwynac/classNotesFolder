@@ -22,7 +22,7 @@ class Animal {
   class Fish extends Animal {
     saltwater: boolean;
     constructor(name: string, food: string, saltwater: boolean) {
-      super(name, null, food, );
+      super(name, null, food,);
       this.saltwater = saltwater;
     }
     soundOff(): string {
@@ -43,14 +43,14 @@ class Animal {
   */
 
 class Bird extends Animal {
-    flightspeed: number;
+    flightSpeed: number;
     constructor(name: string, sound: string, food: string, flightSpeed: number) {
         super(name, sound, food);
-        this.flightspeed = flightSpeed
+        this.flightSpeed = flightSpeed
     }
     fly(): string {
-        if (this.flightspeed > 0)
-        return `The ${this.name} flies at speeds of up to ${this.flightspeed} meters per second!`;
+        if (this.flightSpeed > 0)
+        return `The ${this.name} flies at speeds of up to ${this.flightSpeed} meters per second!`;
         else return `The ${this.name} is a flightless bird.`;
     }
 }
