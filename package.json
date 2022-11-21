@@ -204,5 +204,13 @@
     "yargs-parser": "^21.1.1",
     "yocto-queue": "^0.1.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Corwynac/classNotesFolder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Corwynac/classNotesFolder/issues"
+  },
+  "homepage": "https://github.com/Corwynac/classNotesFolder#readme",
   "description": ""
 }

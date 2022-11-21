@@ -22,7 +22,7 @@ class Animal {
   class Fish extends Animal {
     saltwater: boolean;
     constructor(name: string, food: string, saltwater: boolean) {
-      super(name, null, food,);
+      super(name, null, food, );
       this.saltwater = saltwater;
     }
     soundOff(): string {

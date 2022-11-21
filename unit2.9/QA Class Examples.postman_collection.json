@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "45d7340a-9305-48f5-8d75-dd9f7a93ca5f",
+		"name": "QA Class Examples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "24470386"
+	},
+	"item": [
+		{
+			"name": "GET Joes Cars",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "amazon",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://www.amazon.com/LEGO-Batman-Batmobile-Tumbler-Scarecrow/dp/B094RC8D89/ref=sr_1_2?crid=2MJ3QQNY0H7LN&keywords=lego+batman&qid=1668651038&sprefix=lego+batman+%2Caps%2C123&sr=8-2\n",
+					"protocol": "https",
+					"host": [
+						"www",
+						"amazon",
+						"com"
+					],
+					"path": [
+						"LEGO-Batman-Batmobile-Tumbler-Scarecrow",
+						"dp",
+						"B094RC8D89",
+						"ref=sr_1_2"
+					],
+					"query": [
+						{
+							"key": "crid",
+							"value": "2MJ3QQNY0H7LN"
+						},
+						{
+							"key": "keywords",
+							"value": "lego+batman"
+						},
+						{
+							"key": "qid",
+							"value": "1668651038"
+						},
+						{
+							"key": "sprefix",
+							"value": "lego+batman+%2Caps%2C123"
+						},
+						{
+							"key": "sr",
+							"value": "8-2\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST Joes Cars",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"make\": \"Toyota\",\r\n    \"model\": \"FJ Cruiser\",\r\n    \"year\": 2007,\r\n    \"color\": \"Silver\",\r\n    \"price\": 100000000000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://joes-autos.herokuapp.com/api/vehicles",
+					"protocol": "https",
+					"host": [
+						"joes-autos",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"vehicles"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Put example JOES cars",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "https://joes-autos.herokuapp.com/api/vehicles/23/up",
+					"protocol": "https",
+					"host": [
+						"joes-autos",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"vehicles",
+						"23",
+						"up"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE Example Joes Cars",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://joes-autos.herokuapp.com/api/vehicles/23",
+					"protocol": "https",
+					"host": [
+						"joes-autos",
+						"herokuapp",
+						"com"
+					],
+					"path": [
+						"api",
+						"vehicles",
+						"23"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
