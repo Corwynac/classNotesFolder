@@ -1,4 +1,4 @@
-import * as movie from "./googleSomething.json"
+const movie = require ("./googleSomething.json")
 
 import{
     Builder, 
